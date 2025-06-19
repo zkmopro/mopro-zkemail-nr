@@ -108,10 +108,16 @@ open android -a Android\ Studio
 cd react-native && npm install
 ```
 
-For iOS device:
+For iOS simulator:
 
 ```sh
 npm run ios
+```
+
+For iOS device:
+
+```sh
+npm run ios:device
 ```
 
 For Android device/simulator:

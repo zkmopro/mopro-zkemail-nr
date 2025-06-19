@@ -20,11 +20,11 @@ thiserror = "2.0.12"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 # build for Android
-# noir = { git = "https://github.com/zkmopro/noir-rs", features = ["barretenberg", "android-compat"], rev= "2be26fb" }
+# noir = { git = "https://github.com/zkmopro/noir-rs", features = ["barretenberg", "android-compat"], rev= "608d605" }
 # build for iOS
 noir = { git = "https://github.com/zkmopro/noir-rs", features = [
     "barretenberg",
-], rev = "2be26fb" }
+], rev = "608d605" }
 
 [build-dependencies]
 mopro-ffi = { git = "https://github.com/zkmopro/mopro.git" }
